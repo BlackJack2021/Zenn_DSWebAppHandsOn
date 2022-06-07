@@ -49,7 +49,7 @@ const validateRequestValues = (): boolean => {
     alert('親子同伴者数を入力してください。')
     return false
   } 
-  if (features.Pclass == '兄弟姉妹の同伴者数は？') {
+  if (features.SibSp == '兄弟姉妹の同伴者数は？') {
     alert('兄弟姉妹同伴者数を入力してください。')
     return false
   }
